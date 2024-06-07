@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: #132d46;
+}
+
+.navbar,
+.titulos {
+    background-color: #1a1e29;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #01c38e;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Audiowide, sans-serif;
+}
+
+.section-title2{
+    font-family: "Press Start 2P", system-ui;
+}
+
+.section-title span {
+    color: #01c38e;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #132d46;
+}
+
+.text-colored {
+    color: #01c38e;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #01c38e;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #95f2d9;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.coloracao {
+    background-color: #1a1e29;
+    color: #fff;
+}
+
+.coloracao-fundo {
+    background-color: #132d46;
+    color: #fff;
+}
+
+.texto {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
